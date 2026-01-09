@@ -17,6 +17,7 @@
     padding: 12px 16px 12px 16px;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
   
     
 
@@ -127,20 +128,113 @@ div .hero-button-1{
     width: 251px;
     height: 52px;
     padding: 12px 16px 12px 16px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #30B868;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
     font-family: Inter;
     margin-top: 32px;
+    cursor: pointer;
 }
 div .hero-button-2{
     width: 198px;
     height: 52px;
     padding: 12px 16px 12px 16px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     font-family: Inter;
     margin-top: 32px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#freaturs{
+    width: 1600px;
+    height: 448px;
+    display: flex;
+    margin: 0 auto;
+    font-family: Inter;
+}
+
+.skil-container{
+    width: 1360px;
+    height: 152px;
+
+}
+.skil-container h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 25px;
+    color: #001931;
+}
+ .pragrap p{
+    width: 1360px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #627382;
+ }
+ 
+ #card-grid{
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 1360px;
+    height: 300px;
+ }
+ .card{
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 1px solid #627382;
+    border-radius: 8px;
+    gap: 24px;
+    padding: 16px;
+    box-shadow: 0 6px 10px 0 #001931;
+ }
+ .card:hover{
+    background-color: aquamarine;
+ }
+ .card img{
+    width: 32px;
+    height: 32px;
+ }
+
+ .logo-box{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ }
+
+ .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    align-self: center;
+    justify-content: center;
+    color: #001931;
+ }
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
