@@ -238,3 +238,70 @@ div .hero-button-2{
     line-height: 20px;
     color: #627382;
 }
+
+#main-sec{
+    width: 1600px;
+    height: 840px;
+    display: flex;
+    margin: 0 auto;
+    font-family: Inter;
+}
+.solution-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    margin: 120px;
+}
+.solution-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.contain span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    text-align: left;
+}
+
+.contain h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: #001931;
+    padding-top: 36px;
+}
+
+.contain p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #001931;
+    text-align: left;
+    padding-top: 16px;
+}
+
+.solution-list li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #001931;
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+.solution-list img{
+    width: 20px;
+    height: 20px;
+}
